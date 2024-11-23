@@ -1,0 +1,10 @@
+# Project Dependecies
+node_modules
+
+# Environment Variables
+# .env
+
+database.sql
+
+# Hii ilikuwa folder ya kutest Backend
+requests/
