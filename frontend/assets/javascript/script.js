@@ -6,8 +6,7 @@ document.getElementById("registrationForm").addEventListener("submit", async (ev
   
     console.log("Form data:", data);  // Debug: Check form data
   
-    try {
-      // Hapa tu nimecall the whole url then kwa backend nikainstall "cors" package alafu kwa app.js nikaeka app.use(cors())
+    try { //called the url 
       const response = await fetch("http://localhost:3000/api/register", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
